@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backoficialdois"
+    tools:context="com.example.osvaldoairon.suasnotas.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/mainum" />
+
+        <Button
+            android:id="@+id/btn_inf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="120dp"
+            android:fontFamily="casual"
+            android:text="Informações Projeto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:topLeftRadius="120dp"
+            android:topRightRadius="120dp" />
+
+        <CheckBox
+            android:id="@+id/btn_cad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="45dp"
+            android:fontFamily="casual"
+            android:text="ANOTAR NOTAS"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/btn_listar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:fontFamily="casual"
+            android:text="Listar Disciplinas"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/btn_limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignEnd="@+id/btn_cad"
+            android:layout_alignRight="@+id/btn_cad"
+            android:fontFamily="casual"
+            android:text="Limpar Dados"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btn_som"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/btn_inf"
+            android:layout_toRightOf="@+id/btn_inf"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode" />
+
+        <CheckBox
+            android:id="@+id/btn_sigaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/btn_inf"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:fontFamily="casual"
+            android:text="Entrar no Sigaa"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/padrao_nome"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/btn_cad"
+            android:layout_toLeftOf="@+id/btn_cad"
+            android:layout_toStartOf="@+id/btn_cad"
+            app:srcCompat="@drawable/btnanotar" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_toLeftOf="@+id/btn_listar"
+            android:layout_toStartOf="@+id/btn_listar"
+            app:srcCompat="@drawable/fichabtn" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_toLeftOf="@+id/btn_sigaa"
+            android:layout_toStartOf="@+id/btn_sigaa"
+            app:srcCompat="@drawable/limparbtn" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btn_inf"
+            android:layout_toLeftOf="@+id/btn_sigaa"
+            android:layout_toStartOf="@+id/btn_sigaa"
+            app:srcCompat="@drawable/btnsigaaum" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

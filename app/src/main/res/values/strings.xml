@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SuasNotasUFPB</string>
+    <string name="hint_nome"> Nome Aqui</string>
+    <string name="hint_matricula">Matricula Aqui </string>
+    <string name="hint_disciplina"> Disciplina aqui </string>
+    <string name="hint_nota1">Primeira Nota </string>
+    <string name="hint_nota2">Segunda Nota</string>
+    <string name="hint_nota3">Terceira Nota</string>
+</resources>
